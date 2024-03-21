@@ -1,0 +1,4 @@
+opsgenie-sdk==2.1.5
+requests==2.26.0
+dmacheck==1.0.5
+urllib3==1.26.5
