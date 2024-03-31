@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 from io import StringIO
-from app import main
+from alertg.app import main
 
 
 class TestApiKey(unittest.TestCase):
