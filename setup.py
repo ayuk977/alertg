@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="alertg",
-    version="1.0.1",
+    version="1.0.2",
     license="MIT",
     url="https://github.com/ayuk977/alertg",
     author="Zackzonexx",
@@ -29,7 +29,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "alertg=app:main",
+            "alertg=alertg.app:main",
         ],
     },
     project_urls={
